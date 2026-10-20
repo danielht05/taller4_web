@@ -10,8 +10,8 @@ app.get('/api/info', (req, res) => {
   res.json({
     mensaje: 'El API está funcionando.',
     integrantes: [
-      { carnet: '', ciudadOrigen: '', carrera: '', proyectosRealizados: null },
-      { carnet: '', ciudadOrigen: '', carrera: '', proyectosRealizados: null }
+            { carnet: '00012325', ciudadOrigen: 'San Salvador', carrera: 'Ingeniería Informática', proyectosRealizados: 4 },
+      { carnet: '00045625', ciudadOrigen: 'Santa Tecla', carrera: 'Ingeniería Informática', proyectosRealizados: 3 }
     ]
   });
 });
