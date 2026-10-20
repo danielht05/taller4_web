@@ -1,0 +1,17 @@
+body {
+  background-color: #f2f4f7;
+  font-family: Arial, sans-serif;
+}
+.pagina { max-width: 850px; padding-top: 30px; padding-bottom: 30px; }
+h1 { color: #245f98; margin-bottom: 25px; }
+h2 { font-size: 24px; margin-bottom: 20px; }
+.estado {
+  background-color: #e3f2e7;
+  border: 1px solid #8bb99a;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 25px;
+}
+.estado-error { background-color: #f8d7da; border-color: #e7a0a6; }
+.estado p { margin-bottom: 0; }
+.informacion { background-color: white; padding: 20px; border-radius: 6px; }
